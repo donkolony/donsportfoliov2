@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Don Kolony" />
+    <meta name="description" content="The official Portfolio of Don Kolony" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kolony - PortFolio</title>
+    <link rel="icon" href="./assets/icons/portfolio_icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">D.K.</a>
+
+      <!-- Mobile Menu Toggle -->
+      <div
+        class="navbar__toggle"
+        id="mobile-menu"
+        aria-expanded="false"
+        role="button"
+      >
+        <span class="bar"></span>
+        <span class="bar" style="visibility: hidden"></span>
+        <span class="bar"></span>
+      </div>
+
+      <!-- Navbar  -->
+      <nav class="navbar">
+        <a href="./index.html#home" class="navbar__links">Home</a>
+        <a href="./index.html#skills" class="navbar__links">Skills</a>
+        <a href="./index.html#portfolio" class="navbar__links">Portfolio</a>
+        <a href="./index.html#about" class="navbar__links">About</a>
+        <a href="./public/contact.html" class="navbar__links">Contact</a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <img
+          class="hero__img"
+          draggable="true"
+          src="./assets/image/icon-portFolio.png"
+          alt="Portrait of Dieudonné Kolony, Civil Engineer"
+          width="725"
+          height="725"
+        />
+
+        <h1>
+          I'm a Creative Engineer Shaping Sustainable Structures and Digital
+          Solutions
+        </h1>
+
+        <p class="hero__description">
+          I'm Passionate about building sustainable infrastructure and digital
+          solutions for a better future.
+        </p>
+
+        <div class="hero-buttons">
+          <a
+            href="./assets/resume/Dieudonne_Kolony_CV.pdf"
+            download
+            class="hero__btn resume-btn"
+            aria-label="Download Resume of Dieudonné Kolony"
+            >Download CV
+          </a>
+          <a
+            href="./public/contact.html"
+            class="hero__btn contact-btn"
+            aria-label="Navigate to the contact section"
+            >Contact
+          </a>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="skills" id="skills">
+        <!-- First Child of Skills Section -->
+        <h2>My Skills</h2>
+        <!-- Second Child of Skills Section -->
+        <div class="skills__category">
+          <h3>Web Design</h3>
+          <p>
+            I create visually striking websites that are both user-friendly and
+            aligned with your brand identity, ensuring an engaging online
+            presence.
+          </p>
+        </div>
+
+        <!-- Third Child of Skills Section -->
+        <div class="skills__category first">
+          <h3>UI/UX Design</h3>
+          <p>
+            I specialize in crafting intuitive digital experiences that
+            prioritize user satisfaction and retention, blending aesthetic
+            appeal with seamless functionality.
+          </p>
+        </div>
+
+        <!-- Fourth Child of Skills Section -->
+        <div class="skills__category">
+          <h3>Branding</h3>
+          <p>
+            From logo design to brand guidelines, I develop cohesive visual
+            identities that leave a lasting impression and foster brand loyalty
+            across all platforms.
+          </p>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section class="portfolio" id="portfolio">
+        <h2>Selected Work</h2>
+        <div class="portfolio__container">
+          <!-- Project 1 Content -->
+          <div class="portfolio__item">
+            <div class="port__svg">
+              <img
+                src="./assets/image/tleft.svg"
+                alt="Screenshot of Project 1"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="port__bot-container">
+              <h4>eCommerce Website</h4>
+              <p>
+                A website showcasing a local business, built using WordPress
+              </p>
+              <a
+                class="portfolio-btn"
+                href="https://ouicestnous.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+          <!-- Project 2 Content -->
+          <div class="portfolio__item" role="listitem">
+            <div class="port__svg">
+              <img
+                src="./assets/image/tright.svg"
+                alt="Screenshot of Project 2"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="port__bot-container">
+              <h4>Daniel's Portfolio</h4>
+              <p>
+                A responsive portfolio Built with HTML, CSS, JavaScript,
+                ReactJS, and Node.js.
+              </p>
+              <a
+                class="portfolio-btn"
+                href="https://chimene.dev/#portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <!-- Text Section -->
+        <div class="about__text">
+          <h2>About Me</h2>
+          <p>
+            Hello World!👋 welcome to the world of Dieudonne, where creativity
+            knows no bounds. As the mastermind behind every stroke of design, I
+            blend artistry with strategy to create immersive digital experiences
+            that resonate with audiences.
+          </p>
+          <p>
+            My journey in design is one of continuous exploration and growth,
+            where each project serves as a canvas for pushing boundaries and
+            exceeding expectations.
+          </p>
+          <p>
+            Beyond technical proficiency, my approach is defined by empathy and
+            collaboration. By deeply understanding the needs and aspirations of
+            clients, I forge partnerships that transcend mere transactions,
+            fostering an environment where creativity flourishes and visions
+            become reality.
+          </p>
+          <p>
+            Join me on this transformative journey, where every pixel tells a
+            story and every project is an opportunity to inspire. Together,
+            let's embark on a quest to redefine possibility and shape the future
+            of design.
+          </p>
+        </div>
+        <!-- Image Section -->
+        <div class="about__image">
+          <img
+            src="./assets/image/about.jpg"
+            width="550"
+            height="550"
+            alt="A photo of Dieudonné Kolony"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact-home" id="contact">
+        <!-- Visual Content -->
+        <figure class="contact__img">
+          <img
+            src="./assets/image/icon-portFolio.png"
+            alt="Dieudonne Kolony, civil engineer with 2 years of experience in structural and water engineering."
+            loading="lazy"
+          />
+          <figcaption class="offscreen">
+            Let's collaborate and create impactful projects together.
+          </figcaption>
+        </figure>
+        <!-- Heading -->
+        <h2 class="contact__heading">Let's be in touch!</h2>
+        <p>
+          If my skills and experience align with your company's needs. Feel free
+          to contact me. I'm available for discussion.
+        </p>
+        <!-- Call-to-Action Buttons -->
+        <div class="contact__btn-container">
+          <a
+            class="contact__btn contact__email"
+            href="mailto:dieudonne.kolony@outlook.com"
+            aria-label="Send an email to Dieudonne Kolony"
+            >Copy Email
+          </a>
+          <a
+            class="contact__btn contact__linkedin"
+            href="./public/contact.html"
+            rel="noopener noreferrer"
+            aria-label="Message Dieudonne Kolony on LinkedIn"
+            >Contact
+          </a>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer" aria-labelledby="footer">
+        <div class="footer__links">
+          <a id="footer__logo" href="#home">D.K.</a>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/d-kolony/" target="_blank">
+              <img
+                src="./assets/icons/linkedin.png"
+                alt="LinkedIn icon"
+                width="31"
+                height="31"
+                loading="lazy"
+              />
+            </a>
+            <a href="https://github.com/" target="_blank">
+              <img
+                src="./assets/icons/github.png"
+                alt="Github icon"
+                width="31"
+                height="31"
+                loading="lazy"
+              />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img
+                src="./assets/icons/instagram.png"
+                alt="Instagram icon"
+                width="31"
+                height="31"
+                loading="lazy"
+              />
+            </a>
+          </div>
+        </div>
+
+        <hr />
+
+        <p class="footer__sig-container">
+          <span
+            >&copy; <time datetime="2024" id="year"></time> - All rights
+            Reserved
+          </span>
+          <span>Designed & Developed by Dieudonne Kolony</span>
+        </p>
+      </footer>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
